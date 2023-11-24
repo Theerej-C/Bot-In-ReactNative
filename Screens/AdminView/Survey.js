@@ -1,13 +1,6 @@
 import React, { useState } from "react";
 import { ImageBackground, ScrollView, StyleSheet, View } from "react-native";
-import {
-  Avatar,
-  Button,
-  Card,
-  Keyboard,
-  Text,
-  TextInput,
-} from "react-native-paper";
+import { Avatar, Button, Card, Keyboard, Text, TextInput } from "react-native-paper";
 import { moderateScale, scale, verticalScale } from "react-native-size-matters";
 
 import sairam from "../../assets/sairam.jpg";
@@ -36,6 +29,7 @@ export default function Survey({ navigation }) {
             alignItems: "center",
           }}
         >
+          <Text>HEllo</Text>
           <Card
             mode="contained"
             style={{ height: verticalScale(70), margin: 10 }}
